@@ -1,0 +1,51 @@
+Pseudo code
+
+French: Faire un programme en pseudocode qui initialise tous les éléments d’un tableau à 1 dimension de 10 éléments de type entier.
+English: Write a pseudocode program that initializes all elements of a 1-dimensional array of 10 integer elements.
+
+French: Faire un programme en pseudocode qui affiche tous les éléments d’un tableau à 1 dimension de 10 éléments de type entier.
+English: Write a pseudocode program that displays all elements of a 1-dimensional array of 10 integer elements.
+
+French: Faire un programme en pseudocode qui affiche l’élément le plus grand d’un tableau à 1 dimension de 10 éléments de type entier. Initialisation avec des nombres aléatoires entre 0 et 100.
+English: Write a pseudocode program that displays the largest element of a 1-dimensional array of 10 integer elements. Initialize the array with random numbers between 0 and 100.
+
+French: Faire un programme en pseudocode qui affiche la moyenne des valeurs d’un tableau de 100 éléments.
+English: Write a pseudocode program that displays the average of the values in an array of 100 elements.
+
+French: Faire un programme en pseudocode qui affiche les éléments supérieurs à la moyenne des éléments d’un tableau de 100 éléments.
+English: Write a pseudocode program that displays the elements greater than the average of the elements in an array of 100 elements.
+
+// Initialise the table
+For (Interger i = 0; i<tab.length(); ++i)
+    tab[i] = random(0..100)
+End For
+
+// Display the table
+For (Interger i = 0; i<tab.length(); ++i)
+    print (tab[i])
+End For
+
+// Search for the Largest and Smallest number
+biggest = 0
+Smallest = 0
+For (Interger i = 0; i<tab.length(); ++i)
+
+if (tab[i] > tab[biggest])
+   then biggest = i
+ End-if
+ if (tab[i] < tab[smallest])
+   then smallest = i
+End if
+End For
+// Returning the Biggest and smallest
+   tmp = tab[biggest]
+   tab[biggest] = tab[smallest]
+   tab[smallest]=  tmp
+// Returning the table
+For (Interger i = 0; i<tab.length(); ++i)
+print (tab[i])
+End For
+
+End of Program
+ 
+
